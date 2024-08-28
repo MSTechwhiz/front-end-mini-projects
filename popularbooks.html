@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.back-color {
+    background-color: #1b1b1b;
+    background-size: cover;
+    height: 300vh;
+    padding: 1px;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 36px;
+    padding-top: 20px;
+    padding-left: 23px;
+    padding-bottom: 0px;
+    font-family: 'Bree Serif';
+    font-weight: bold;
+}
+
+.card {
+    background-color: #e4e7eb;
+    height: 230px;
+    margin: 12px;
+    border-radius: 10px;
+
+}
+
+.image {
+    height: 230px;
+    width: 120px;
+}
+
+.head {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 2px;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.para-card {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.para-ccc {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-left: 10px;
+
+    color: #9aa5b1;
+}
+
+.heading2 {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+.card2 {
+
+    height: 200px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.head2 {
+    font-family: 'Bree Serif';
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 2px;
+    color: #ffffff;
+
+}
+
+.para-card2 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-left: 10px;
+
+    color: #9aa5b1;
+}
+
+.image2 {
+    height: 200px;
+    width: 120px;
+}
+
+.abdul-image {
+    width: 300px;
+    margin: 50px;
+    height: 300px;
+}
+
+.hhhh {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.para-cccc {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-left: 10px;
+
+    color: #9aa5b1;
+}
+
+.abdul-book {
+    text-align: center;
+}
+
+.pppp {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #9aa5b1;
+}
+
+.button {
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    height: 38px;
+}
+
+.button-container {
+    text-align: center;
+}
+</style>
+
+<body>
+    <div class="back-color " id="sectionHome">
+        <h1 class="heading">Popular Book</h1>
+        <div class="card d-flex flex-row">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="image" />
+
+            </div>
+            <div>
+                <h1 class="head">Wings of Fire</h1>
+                <p class="para-card">An Aurobiography of <br>
+                    Abdul Kalam</p>
+                <p class="para-ccc">by Arun Tiwari</p>
+                <button class="btn btn-primary " onclick="display('sectionAbdul')"> Read Now</button>
+
+            </div>
+        </div>
+        <h1 class="heading2"> Recommended Books</h1>
+        <div class="card2  d-flex flex-row">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="image2" />
+
+            </div>
+            <div>
+                <h1 class="head2">The 3 mistakes of my life</h1>
+                <p class="para-card2">Indian author <br>
+                    by Chetan Bhagat</p>
+
+                <button class="btn btn-primary " onclick="display('sectionMistakes')"> Read Now</button>
+
+            </div>
+        </div>
+        <div class="card2  d-flex flex-row">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="image2" />
+
+            </div>
+            <div>
+                <h1 class="head2">The 3 mistakes of my life</h1>
+                <p class="para-card2">Indian author <br>
+                    by Chetan Bhagat</p>
+
+                <button class="btn btn-primary " onclick="display('sectionHarry')"> Read Now</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionAbdul" class="back-color ">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="abdul-image" />
+        </div>
+        <div class="abdul-book">
+            <h1 class="hhhh">Wings of Fire</h1>
+            <p class="para-cccc"> by Arun Tiwari</p>
+        </div>
+        <p class="pppp">Every common man who by his sheer grit and hard work
+            achieves success should share his story with the rest for
+            they may find inspiration and strength to go on, in his
+            story. The 'Wings of Fire' is one such autobigraphy by
+            visionary scientist Dr.APJ Abdul Kalam, who from very
+            humble beinnings rose to be the president of India. The
+            book is full of insights, personal moments and life
+            experiences of Dr.Kalam. It gives us an understanding on
+            his journey of success</p>
+        <div class="button-container">
+            <button class="button" onclick="display('sectionHome')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionMistakes" class="back-color ">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="abdul-image" />
+        </div>
+        <div class="abdul-book">
+            <h1 class="hhhh">The 3 mistakes of my life</h1>
+            <p class="para-cccc"> by Chetan Bhagat</p>
+        </div>
+        <p class="pppp">The 3 Mistakes of my life is the third novel written by
+            eminent Indian Authour Chetan Bhagat. Based on cricket,
+            bussiness and religion, the novel is set against the
+            backdrop of beautiful city Ahmedabad. Revolving around
+            three young Indian boys omi, Ishaan and Govind, the
+            book goes on to narrate how the three are trying their
+            best to make ends meet in the city. Based on real events,
+            the book starts with a dramatic twist, where Bhagat is
+            reading an e-mail sent by some young person Govind.</p>
+        <div class="button-container">
+            <button class="button" onclick="display('sectionHome')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionHarry" class="back-color ">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="abdul-image" />
+        </div>
+        <div class="abdul-book">
+            <h1 class="hhhh">Harry Potter</h1>
+            <p class="para-cccc"> by J.K.Rowling</p>
+        </div>
+        <p class="pppp">Harry potter's life is miserable. His parents are dead and
+            he's stuck with his heartless relatives,who force him to
+            live in a tiny closet under the stairs. But his fortune
+            changes when he receives a letter that tells him the truth
+            about himsel: he's a wizard. A mysterious vistor rescues
+            him from his relatives and takes him to his new home,
+            Hogwarts school of Witchcraft and Wizardry. Aftter a
+            lifetime of botting up his magical powers, Harry finally
+            feels like a normal kid.</p>
+        <div class="button-container">
+            <button class="button" onclick="display('sectionHome')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
